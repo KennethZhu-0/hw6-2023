@@ -74,7 +74,7 @@ volumeSlider.addEventListener("change", function() {
 
 var oldSchoolButton = document.getElementById("vintage");
 oldSchoolButton.addEventListener("click", function(){
-	videoElement.classList.toggle("oldSchool");
+	videoElement.classList.add("oldSchool");
 });
 
 var originalButton = document.getElementById("orig");
