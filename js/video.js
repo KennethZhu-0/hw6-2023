@@ -26,7 +26,7 @@ playButton.addEventListener("click", function() {
 function updateVolumeInfo() {
 	var volumeInfo = document.getElementById("volume");
 	var currentVolume = videoElement.volume * 100;
-	volumeInfo.textContent = "Volume is: " + currentVolume + "%";
+	volumeInfo.textContent = currentVolume + "%";
 }
 
 var pauseButton = document.getElementById("pause");
